@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            width:300px;
+            display:flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .lista{
+            display:flex;
+        }
+    </style>
+</head>
+<body>
+    <div style="display:flex;flex-direction:column;align-items:flex-start;">
+        <div class="item">
+            <label for="area">Area:</label>
+            <input type="number" name="area" id="area">
+        </div>
+        <div class="item">
+            <label for="numero">Número:</label>
+            <input type="number" name="numero" id="numero">
+        </div>
+        <div class="item">
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro" id="bairro">
+        </div>
+        <div class="item">
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade">
+        </div>
+        <div class="item">
+            <button id="save">Salvar</button>
+        </div>
+    </div>
+    <div class="lista">
+        <ul id="ul">
+
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
